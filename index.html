@@ -1,0 +1,31 @@
+<html>
+  <head>
+    <title>Text Editor</title>
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="MyStyle.css" />
+  </head>
+
+ 
+<body>
+    <div class="top">
+
+      <div id="exitbutton">  
+        <button class="exit" onclick="window.confirm('Are you sure you want to exit?');"><b>Exit</b></button>
+      </div>
+        
+        <h1 id="heading" contenteditable="true"></h1>
+
+        
+          <button id="date" onclick="display_date()"><b>Date</b></button>
+
+      
+          <p><div  id="content"  contenteditable="true"></div></p>
+      
+            
+    </div>
+</body>
+
+  <script src="app.js"></script>
+  
+</html>
